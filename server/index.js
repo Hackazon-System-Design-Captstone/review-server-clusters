@@ -2,7 +2,7 @@ const compression = require('compression');
 const express = require('express');
 const bodyParser = require('body-parser');
 const db = require('../database/index.js');
-let port = 7764;
+let port = 7765;
 let app = express();
 
 app.use(compression());
