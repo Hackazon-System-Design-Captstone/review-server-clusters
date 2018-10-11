@@ -20,11 +20,8 @@ class Server {
     this.app.listen(this.port);
 
     this.handleGets();
-    this.handleapiGets();
     this.handlePosts();
     this.handleOptions();
-    this.handleDelete();
-    this.handlePuts();
   }
 
   handleOptions() {
