@@ -1,0 +1,19 @@
+{
+  "name": "review-server-clusters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hackazon-System-Design-Captstone/review-server-clusters.git"
+  },
+  "author": "Jun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hackazon-System-Design-Captstone/review-server-clusters/issues"
+  },
+  "homepage": "https://github.com/Hackazon-System-Design-Captstone/review-server-clusters#readme"
+}
