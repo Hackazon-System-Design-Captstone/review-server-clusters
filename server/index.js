@@ -8,7 +8,7 @@ bluebird.promisifyAll(redis);
 
 class Server {
   constructor() {
-    this.port = 7764;
+    this.port = 7765;
     this.app = express();
     this.init();
   }
