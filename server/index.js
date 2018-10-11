@@ -17,7 +17,6 @@ class Server {
     this.app.use(compression());
     this.client = redis.createClient(6379, 'ec2-54-84-9-120.compute-1.amazonaws.com');
     this.app.use(bodyParser.urlencoded({ extended: true }));
-    this.app.use(cors({ origin: this.proxyAddress }));
     this.app.listen(this.port);
 
     this.handleGets();
