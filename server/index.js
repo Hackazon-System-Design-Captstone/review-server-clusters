@@ -1,4 +1,3 @@
-require('newrelic');
 const compression = require('compression');
 const redis = require("redis");
 const bluebird = require('bluebird');

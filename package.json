@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Hackazon-System-Design-Captstone/review-server-clusters/issues"
   },
-  "homepage": "https://github.com/Hackazon-System-Design-Captstone/review-server-clusters#readme"
+  "homepage": "https://github.com/Hackazon-System-Design-Captstone/review-server-clusters#readme",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.3",
+    "pg": "^7.5.0",
+    "redis": "^2.8.0"
+  }
 }
