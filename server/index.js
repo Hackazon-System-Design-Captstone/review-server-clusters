@@ -8,7 +8,7 @@ let app = express();
 
 app.use(compression());
 app.use(bodyParser.json());
-app.use(morgan());
+app.use(morgan('short'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(port);
 
