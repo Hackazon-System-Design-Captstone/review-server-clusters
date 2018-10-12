@@ -2,7 +2,7 @@ const pg = require('pg');
 
 const client = new pg.Client({
   user: 'jun',
-  host: 'ec2-54-90-167-78.compute-1.amazonaws.com',
+  host: 'ip-172-31-7-145.us-west-1.compute.internal',
   database: 'sdc',
   password: 'sd7763sd',
   port: 5432,
