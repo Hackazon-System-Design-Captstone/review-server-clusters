@@ -2,11 +2,13 @@ const compression = require('compression');
 const express = require('express');
 const bodyParser = require('body-parser');
 const db = require('../database/index.js');
+const  morgan  = require('morgan');
 let port = 7766;
 let app = express();
 
 app.use(compression());
 app.use(bodyParser.json());
+app.use(morgan());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(port);
 
